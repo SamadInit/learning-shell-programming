@@ -18,9 +18,4 @@ factorial() {
     echo $fact
 }
 
-# Function to calculate combination nCr
-combination() {
-    local n=$1
-    local r=$2
-    local num=$(factorial $n)
-    local den=$(( $(factorial $r) * $(f*
+
